@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+  margin: 50px;
+  padding: 10px 100px;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 0px 100px;
+  color: white;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .links {
+  display: flex;
+}
+
+header nav .links li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+header nav .links li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .headers {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+header .headers h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+header .headers p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header .headers .header {
+  display: inline-block;
+  width: 40%;
+  margin: 10% 5% 10% 0%;
+  text-align: left;
+}
+
+header .headers .img-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+
+  width: 40%;
+  margin: 10% 0% 10% 0%;
+}
+
+header .headers .header .sign-up {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 20px 0px;
+  border-color: #3882f6;
+}
+
+main {
+  margin: 50px;
+}
+
+main h3 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 24px;
+}
+
+main .random-information h3 {
+  text-align: center;
+}
+
+main .random-information {
+  display: flex;
+  margin: 50px;
+
+  text-align: center;
+}
+
+main .random-information .information1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .random-information .information1 .square {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 2px;
+  border: 2px solid #3882f6;
+}
+
+main .inpiring-quote {
+  padding: 50px 100px;
+  margin: 50px;
+  background-color: #e5e7eb;
+}
+
+main .inpiring-quote .p-inspiring-quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+main .call-to-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px 100px;
+  text-align: center;
+  background-color: #3882f6;
+  padding: 20px;
+  align-items: center;
+}
+
+main .call-to-action2 {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  color: white;
+}
+
+main .call-to-action h5,
+p {
+  margin: 5px;
+}
+
+main .call-to-action .sign-up {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+footer .copyright {
+  background-color: #1f2937;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .copyright h6 {
+  color: white;
+}
