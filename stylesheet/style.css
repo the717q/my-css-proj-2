@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 body {
-  margin: 50px;
-  padding: 10px 100px;
 }
 
 header {
@@ -33,31 +31,34 @@ header nav .links li a {
   color: white;
 }
 
-header .headers {
+main .headers {
+  padding: 0px 100px;
+  background-color: #1f2937;
   display: flex;
   text-align: center;
   justify-content: space-between;
 }
 
-header .headers h2 {
+main .headers .header h2 {
   font-size: 48px;
   font-weight: 800;
   margin: 0;
+  color: #e5e7eb;
 }
 
-header .headers p {
+main .headers .header p {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-header .headers .header {
+main .headers .header {
   display: inline-block;
   width: 40%;
   margin: 10% 5% 10% 0%;
   text-align: left;
 }
 
-header .headers .img-placeholder {
+main .headers .img-placeholder {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +68,7 @@ header .headers .img-placeholder {
   margin: 10% 0% 10% 0%;
 }
 
-header .headers .header .sign-up {
+main .headers .header .sign-up {
   background-color: #3882f6;
   color: white;
   padding: 10px;
@@ -75,10 +76,6 @@ header .headers .header .sign-up {
   width: 30%;
   margin: 20px 0px;
   border-color: #3882f6;
-}
-
-main {
-  margin: 50px;
 }
 
 main h3 {
