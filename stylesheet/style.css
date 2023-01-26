@@ -91,7 +91,7 @@ main .random-information h3 {
 main .random-information {
   display: flex;
   margin: 50px;
-
+  justify-content: center;
   text-align: center;
 }
 
